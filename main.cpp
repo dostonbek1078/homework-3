@@ -29,6 +29,7 @@ int main() {
             consumption -=60;
             bill = 13 + 30 * 0.4 + 20 * 0.12 + 10 * 1.4 + consumption * 1.5;
             cout << bill << endl << endl;
+
             break;
         case 0:
             cout << "Invalid input." << endl << endl;

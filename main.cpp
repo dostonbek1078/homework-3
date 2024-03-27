@@ -20,6 +20,8 @@ int main() {
             bill = 13 + 30 * 0.4 + consumption * 0.12;
             cout << bill << endl << endl;
             break;
+
+
         case 3:
             consumption -=50;
             bill = 13 + 30 * 0.4 + 20 * 0.12 + consumption * 1.4;
